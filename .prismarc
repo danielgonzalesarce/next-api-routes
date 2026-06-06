@@ -1,0 +1,7 @@
+{
+    "schema": "prisma/schema.prisma",
+    "datasource": {
+        "provider": "postgresql",
+        "url": "postgresql://postgres.euzxvornglqznutiihpm:Da74364688%3F@aws-1-us-east-1.pooler.supabase.com:5432/postgres"
+    }
+}

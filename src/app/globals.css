@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+body {
+  @apply bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 text-slate-100;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  @apply text-3xl font-bold text-white;
+}
+
+h2 {
+  @apply text-2xl font-semibold text-white;
+}
+
+h3 {
+  @apply text-lg font-semibold text-slate-100;
+}
+
+.card {
+  @apply bg-slate-800/50 border border-slate-700/50 rounded-lg backdrop-blur-sm hover:border-slate-600/50 transition-all;
+}
+
+.card-hover {
+  @apply bg-slate-800/50 border border-slate-700/50 rounded-lg backdrop-blur-sm hover:border-slate-600/50 transition-all hover:bg-slate-800/80 hover:shadow-lg hover:shadow-blue-500/10;
+}
+
+.btn {
+  @apply px-4 py-2 rounded-lg font-medium transition-all duration-200 flex items-center gap-2;
+}
+
+.btn-primary {
+  @apply px-4 py-2 rounded-lg font-medium transition-all duration-200 flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white shadow-lg shadow-blue-500/25 hover:shadow-blue-500/40;
+}
+
+.btn-secondary {
+  @apply px-4 py-2 rounded-lg font-medium transition-all duration-200 flex items-center gap-2 bg-slate-700 hover:bg-slate-600 text-slate-100 border border-slate-600;
+}
+
+.btn-danger {
+  @apply px-4 py-2 rounded-lg font-medium transition-all duration-200 flex items-center gap-2 bg-red-600/20 hover:bg-red-600/30 text-red-400 border border-red-500/30;
+}
+
+.input-field {
+  @apply w-full bg-slate-900/50 border border-slate-700/50 rounded-lg px-4 py-2.5 text-slate-100 placeholder-slate-500 focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500/20 transition-all;
+}
+
+.badge {
+  @apply inline-flex items-center gap-2 px-3 py-1 rounded-full text-sm font-medium;
+}
+
+.badge-primary {
+  @apply inline-flex items-center gap-2 px-3 py-1 rounded-full text-sm font-medium bg-blue-500/20 text-blue-300 border border-blue-500/30;
+}
+
+.badge-secondary {
+  @apply inline-flex items-center gap-2 px-3 py-1 rounded-full text-sm font-medium bg-slate-700/50 text-slate-300;
+}
